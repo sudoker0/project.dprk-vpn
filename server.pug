@@ -1,0 +1,37 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+        link(rel="stylesheet", href="style/style.css")
+        script(src="script/script.js" defer)
+        title Servers
+
+    body(data-type="server")
+        #dialog_container
+
+        .section.nofull#intro
+            include template/_navbar.pug
+            .padding_for_navbar
+
+        .section.red.nofull
+            h1 Servers
+
+        .section.nofull.nocenter: .compact
+            p This is where you can find info on server status, location and more.
+            p Stat update every 5 minutes automatically.
+            p Depend on your Internet and our server load, the data could take some time to load. Please be patient.
+
+            #server_display
+                .server_block.header
+                    .server_item
+                        p: b Status
+                    .server_item
+                        p: b Server
+                    .server_item
+                        p: b City
+                    .server_item
+                        p: b Provider
+
+        include template/_footer.pug
