@@ -28,7 +28,7 @@ function getRandom(min, max) {
 function wait(ms) {
     return new Promise((res, _) => { setTimeout(res, ms); });
 }
-const SERVER_INFO_ADDRESS = "../data/server.json";
+const SERVER_INFO_ADDRESS = "data/server.json";
 const URL_CHECK_REGEX = /((([A-Za-z]{3,9}:(?:\/\/)?)(?:[-;:&=\+\$,\w]+@)?[A-Za-z0-9.-]+|(?:www.|[-;:&=\+\$,\w]+@)[A-Za-z0-9.-]+)((?:\/[\+~%\/.\w\-_]*)?\??(?:[-\+=&;%@.\w_]*)#?(?:[.\!\/\\w]*))?)/i;
 var AccountType;
 (function (AccountType) {
@@ -488,7 +488,7 @@ switch (document.body.getAttribute("data-type")) {
                         "content": "Cleaning Up...",
                         "time": 2850
                     }
-                ], d = new Audio("../sound/dial-up-internet-sound.mp3");
+                ], d = new Audio("sound/dial-up-internet-sound.mp3");
                 var dialog;
                 dialog = createDialog(a, "Starting Up...", b);
                 dialog.show();
@@ -624,7 +624,7 @@ switch (document.body.getAttribute("data-type")) {
                         iframe.src = url;
                     }
                     else {
-                        iframe.src = "../block.html";
+                        iframe.src = "block.html";
                         website = url;
                     }
                 }
