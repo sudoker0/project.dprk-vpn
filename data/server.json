@@ -1,0 +1,157 @@
+[
+    {
+        "server": "dprk-pyongyang-001",
+        "city": "Pyongyang",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-pyongyang-002",
+        "city": "Pyongyang",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-pyongyang-003",
+        "city": "Pyongyang",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-pyongyang-004",
+        "city": "Pyongyang",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-pyongyang-005",
+        "city": "Pyongyang",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-pyongyang-006",
+        "city": "Pyongyang",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-hamhung-001",
+        "city": "Hamhung",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-hamhung-002",
+        "city": "Hamhung",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-chongjin-001",
+        "city": "Chongjin",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-chongjin-002",
+        "city": "Chongjin",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-chongjin-003",
+        "city": "Chongjin",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-chongjin-004",
+        "city": "Chongjin",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-wonsan-001",
+        "city": "Wonsan",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-wonsan-002",
+        "city": "Wonsan",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-sinuiju-001",
+        "city": "Sinuiju",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-sinuiju-002",
+        "city": "Sinuiju",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-sinuiju-003",
+        "city": "Sinuiju",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-kaechon-001",
+        "city": "Kaechon",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-kaechon-002",
+        "city": "Kaechon",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-kaechon-003",
+        "city": "Kaechon",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-kaechon-004",
+        "city": "Kaechon",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-sunchon-001",
+        "city": "Sunchon",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-sunchon-002",
+        "city": "Sunchon",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-haeju-001",
+        "city": "Haeju",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-haeju-002",
+        "city": "Haeju",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-kanggye-001",
+        "city": "Kanggye",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-kanggye-002",
+        "city": "Kanggye",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-kanggye-003",
+        "city": "Kanggye",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-anju-001",
+        "city": "Anju",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-anju-002",
+        "city": "Anju",
+        "provider": "People's Korea VPN"
+    },
+    {
+        "server": "dprk-anju-003",
+        "city": "Anju",
+        "provider": "People's Korea VPN"
+    }
+]

@@ -1,0 +1,101 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+        link(rel="stylesheet", href="style/style.css")
+        script(src="script/script.js" defer)
+        title The People's Korea VPN
+
+    body(data-page="home")
+        #dialog_container
+
+        .section#intro
+            #bg_img_intro
+            include template/_navbar.pug
+
+            img.icon(src="../image/icon.png", alt="Icon")
+            h1 The People's Korea VPN
+            p.should_center In collaboration with The Democratic Republic's People of Korea
+            p.should_center Scroll down to know more
+
+            svg.scroll_down_arrows
+                path.a1(d="M0 0 L30 32 L60 0")
+                path.a2(d="M0 20 L30 52 L60 20")
+                path.a3(d="M0 40 L30 72 L60 40")
+
+        .section.nofull#post_intro: .compact
+            h1.should_center Everyone Deserve Clean Internet
+            p.should_center In today's world, where false and deceptive information are everywhere, a VPN is the best way to take back the Internet you once love.
+            p.should_center: b So then, why choose us?
+
+        .section.red.nofull.leftright: .compact
+            .left: div
+                h1 Secure your Internet
+                p Using our military grade protection, your data will be safely protected from all the western spy. So even if you're in a western country, you'll never have to worry about your data getting stolen, cause it's all kept safe in our server.
+            .right
+                img(src="../image/img1.png", alt="Illustration of an Internet connection getting protected by a VPN")
+
+        .section.red.nofull.rightleft: .compact
+            .left: div
+                h1 Unblock the truth
+                p With popular social media and websites constantly recommending and spoon-feeding you western propaganda, it's very hard to find truthful information. But with our VPN, you'll only be given the truth provided by the Workers' Party. #[sup *1]
+            .right
+                img(src="../image/img2.png", alt="Illustration of a computer monitor")
+
+        .section.red.nofull.leftright: .compact
+            .left: div
+                h1 Lots of server for you to choose
+                p With our VPN, you can select where you want to connect from over 30 high quality and high speed server #[sup *2] made by our General Secretary located in 10 cities in the DPRK, and you'll never experience any slowdown on your connection.
+            .right
+                img(src="../image/img3.png", alt="Illustration of a server rack")
+
+        .section.nofull
+            h1.should_center That's so great!
+            p.should_center: b So how do I get start?
+
+        .section.blue.nofull.leftright: .compact
+            .left: div
+                h1 1. Provide us with required documents
+                p To ensure that you're an actual DPRK citizen, we'll require your ID issued by the DPRK, along with more information #[sup *3] like: Your current status, current and previous home address, information about your family, your relative and connection you have with people inside or outside the DPRK, etc.
+                p To provide us with the documents, please find the nearest People's Korea VPN building around your home.
+                p Although if you're not a DPRK citizen, you can generate a "Free Limited Account" without needing any documents (jump to step 3) (detail at the "Pricing" page)
+
+            .right
+                img(src="../image/img4.png", alt="Illustration of multiple documents")
+
+        .section.blue.nofull.rightleft: .compact
+            .left: div
+                h1 2. Getting access
+                p After all the documents has been verified, you'll receive an email containing an "verification code" which allow you to get either a "Free Account" for free or an "People's Account" for a price.
+
+            .right
+                img(src="../image/img5.png", alt="Illustration of opened email")
+
+        .section.blue.nofull.leftright: .compact
+            .left: div
+                h1 3. Generate an account
+                p Once you've select and pay for your account type, you'll get an account number which you can use to access the VPN
+
+            .right
+                img(src="../image/img6.png", alt="Illustration of a ticket")
+
+        .section.blue.nofull.rightleft: .compact
+            .left: div
+                h1 4. Use our VPN program directly on the website
+                p No need to download an executable or install any program, you can access "the true Internet" with just your browser. Just go to the "Apps" page, enter your account number, and you're set!
+
+            .right
+                img(src="../image/img7.png", alt="Illustration of the app")
+
+        .section.nofull: .compact
+            h1.should_center So what are you waiting for?
+            p.should_center: b #[a(href="pricing.html") Get Started Now!]
+
+        .section.nofull.nocenter: .compact
+            p: sup *1: "Truth" here include: Approved information by the DPRK government
+            p: sup *2: Maximum download and upload speed: 1 Megabit/second; uptime: from 6AM to 11PM (DPRK local time)
+            p: sup *3: Collected data is specified at the "Privacy" page
+
+        include template/_footer.pug

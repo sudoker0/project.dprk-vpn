@@ -1,0 +1,70 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+        link(rel="stylesheet", href="style/style.css")
+        script(src="script/script.js" defer)
+        title Pricing
+
+    body(data-type="pricing")
+        #dialog_container
+
+        .section.nofull#intro
+            include template/_navbar.pug
+            .padding_for_navbar
+
+        .section.red.nofull
+            h1 Pricing
+
+        .section.nofull: .compact
+            h1 A Very Cheap Price
+            p Very affordable is one of our goal when we create the VPN. Because we believe that VPN should be affordable for everyone, even if you're the poorest homeless person or the richest billionaire out there.
+
+            .price_div
+                .price_item
+                    h2 Free Limited Account
+                    hr
+                    p - Access to all 30 servers around 10 cities
+                    p - Moderate speed (max 500 kilobits / seconds up and down)
+                    p - Access from 6 AM to 11 PM (DPRK local time)
+                    p - 70% uptime guarantee
+                    p - No official support access
+                    .price_item_below
+                        hr
+                        p Availability: Everyone inside and outside the DPRK
+                        p Price: 0.00 DPRK Won (0.00 US Dollar)
+
+                        .button_container
+                            button#get_free_limited_acc Get
+                .price_item
+                    h2 Free Account
+                    hr
+                    p - Everything in Free Limited Account
+                    p - High speed (max 800 kilobits / second up and down)
+                    p - 85% uptime guarantee
+                    p - Limited support access
+                    .price_item_below
+                        hr
+                        p Availability: Everyone inside the DPRK
+                        p Price: 0.00 DPRK Won (0.00 US Dollar)
+
+                        .button_container
+                            button#get_free_acc Get
+                .price_item
+                    h2 People's Account
+                    hr
+                    p - Everything in Free Account
+                    p - Max speed (max 1 megabit / second up and down)
+                    p - 99% uptime guarantee
+                    p - Official support access
+                    .price_item_below
+                        hr
+                        p Availability: Everyone inside the DPRK
+                        p Price: 2700.00 DPRK Won (3.00 US Dollars) / month
+
+                        .button_container
+                            button#get_people_acc Purchase
+
+        include template/_footer.pug

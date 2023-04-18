@@ -1,0 +1,34 @@
+html(lang="en")
+    head
+        meta(charset="UTF-8")
+        meta(http-equiv="X-UA-Compatible", content="IE=edge")
+        meta(name="viewport", content="width=device-width, initial-scale=1.0")
+
+        link(rel="stylesheet", href="style/style.css")
+        script(src="script/script.js" defer)
+        title Apps
+
+    body(data-type="apps")
+        #dialog_container
+
+        .section.nofull#intro
+            include template/_navbar.pug
+            .padding_for_navbar
+
+        .section.red.nofull
+            h1 Apps
+
+        .section.nofull.nocenter: .compact
+            #app_container
+                #app_login_page
+                    h2 Error: Unauthorized
+                    p To use the app, please login with your account number.
+                    button#app_login_button Login
+                #app_control_bar
+                    input#url_bar(type="text")
+                    button#app_go Go
+                    button#app_refresh Refresh
+                    select#selected_vpn_server
+                        option null
+                #app_viewer
+                    iframe#app_iframe(src="about:blank", frameborder="0")
